@@ -1,0 +1,177 @@
+/* Background color added */
+body {
+    background-color: var( --background-clr)
+}
+
+/* Hides Property */
+
+.about-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+
+/* Grid Layout */
+.about-section .coin-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+    
+}
+
+
+
+/* About Content */
+.about__container .about__header {
+    color: var( --splash-bg-clr);
+    font-size: 3rem;
+}
+
+
+/* About Content 'One' color */
+.about__container  .about__content-one, .about__content-two  {
+    color: var(--text-clr);
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+/* Height and Width of Coins  */
+.coin-container .coin {
+    width: 100px;
+    height: 100px;
+}
+
+/* Define positions for each coin */
+.coin:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    transform: rotate(45deg);
+    grid-area: 1 / 2;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.coin:nth-child(2) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    transform: rotate(90deg);
+    margin-top: 20%;
+}
+
+.coin:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    transform: rotate(180deg);
+    margin-left: 10%;
+}
+
+.coin:nth-child(4) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    transform: rotate(60deg);
+    margin-left: 30%
+}
+
+.coin:nth-child(5) {
+    grid-column: 2 / 4; /* Coin 5 position */
+    grid-row: 3 / 4;
+    transform: rotate(100deg);
+  }
+
+
+.coin:nth-child(6) {
+    grid-column: 1 / 2; /* Coin 6 position */
+    grid-row: 2 / 3;
+    transform: rotate(60deg);
+    margin-left: 20%;
+  }
+
+
+.coin:nth-child(7) {
+    grid-column: 3 / 4; /* Coin 7 position */
+    grid-row: 2 / 3;
+    transform: rotate(40deg);
+  }
+
+  
+.coin:nth-child(8) {
+        grid-column: 1 / 4;
+        grid-row: 1 / 3;
+        transform: rotate(80deg);
+        margin-left: 20%;
+        margin-top: 5%;
+  }
+
+/* 
+ 1. change word size
+ 2. change word spacing
+ 3. reduce image sizes  
+*/
+
+/* Task 
+  Find out how to make the about content appears first in the grid then the falling coin images 
+*/
+
+
+/* Media Query Small Devices */
+@media only screen and (max-width: 600px){
+
+    /* Mobile Layout */
+ .about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "about__container"
+    "coin-container";
+    }
+
+    /* Height and Width of Coins  */
+.coin-container .coin {
+    width: 70px;
+    height: 70px;
+}
+
+
+.about-section .about__container {
+    margin-bottom: 30%;
+}
+
+
+/* About Content */
+.about__container .about__header {
+    color: var( --splash-bg-clr);
+    font-size: 2rem;
+}
+
+/* About Content 'One' color */
+.about__container  .about__content-one, .about__content-two  {
+    color: var(--text-clr);
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+}
+
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 400px)  {
+
+    .about-section .coin-container {
+        margin-bottom: 20%;
+    }
+
+
+    /* Bottom Space */
+    .about-section .about__container {
+        margin-bottom: 40%;
+    }
+
+    .about__container  .about__content-one, .about__content-two  {
+        color: var(--text-clr);
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+}

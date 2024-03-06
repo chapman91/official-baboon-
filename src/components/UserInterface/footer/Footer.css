@@ -1,0 +1,46 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--footer-bg-clr);
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info p {
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+/* Adjust font size for large screens */
+@media screen and (min-width: 768px) {
+
+    .footer {
+        width: 100%;
+    }
+
+    p {
+        font-size: 1.143rem;
+    }
+}
+
+
+/* Adjust font size for even larger screens */
+@media screen and (min-width: 1024px) {
+
+    .footer {
+        width: 100%;
+    }
+
+    p {
+        font-size: 1.286rem;
+    }
+}

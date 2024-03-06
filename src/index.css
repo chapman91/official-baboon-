@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "fontdiner swanky";
+  font-weight: 400;
+  src: url("/src/assets/fonts/fontdinerswanky-regular-webfont.woff2")
+      format("woff2"),
+    url("/src/assets/fonts/fontdinerswanky-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "fredoka one";
+  font-weight: 400;
+  src: url("/src/assets/fonts/fredokaone-regular-webfont.woff2") format("woff2"),
+    url("/src/assets/fonts/fredokaone-regular-webfont.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* css custom variables */
+:root {
+  --background-clr: #f7941d;
+  --black-clr: #020000;
+  --splash-bg-clr: #3b3635;
+  --text-bg-clr: #454547;
+  --focus-clr: #505152;
+  --text-clr: #fbf7f7;
+  --footer-bg-clr: #d27300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka One", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global typography styles */
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fontdiner Swanky", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:focus {
+  outline: 2px solid var(--focus-clr);
+}

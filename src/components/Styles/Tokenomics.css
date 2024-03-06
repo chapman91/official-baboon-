@@ -1,0 +1,43 @@
+.header{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+.header h1 {
+    font-size: 3rem;
+    color: var( --splash-bg-clr);
+}
+
+
+.header__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+
+.header__text p {
+  color: var( --text-clr);
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .header{
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header__text {
+      margin: 0 20px;
+    }
+
+    .header__text .header__content {
+      display: flex;
+      flex-direction: column;
+    }
+}

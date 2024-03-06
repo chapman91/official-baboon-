@@ -1,0 +1,88 @@
+/* HowToBuy Stylesheet */
+
+
+
+/* Height and Width  */
+.container .icons .icon-instruction {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+
+/* Header Text */
+.HowToBuy-header h1 {
+    font-size: 3rem;
+    color: var( --splash-bg-clr);
+}
+
+
+/* Space added at bottom */
+.instruction__container {
+    padding-bottom: 5%;
+}
+
+
+
+/* instruction layouts */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+/* image container */
+.icons {
+    margin-right: 20px;
+    flex: 0 1 300px;  
+    margin-top: 40px;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+    color: var( --text-clr);
+}
+
+/* Instruction Subtitle Text  */
+.text h2 {
+    font-size: 2rem;
+}
+
+
+/* For mobile devices (up to 600px) */
+
+@media only screen and (max-width: 600px){
+    /* Header Text */
+    .HowToBuy-header h1 {
+    font-size: 2rem;
+    }
+
+    
+    /* Layout */
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* image container */
+    .icons {
+    margin-right: 20px;
+    flex: 0 1 50px;  
+    margin-top: 40px;
+
+    }
+
+    /* Instruction Subtitle Text  */
+    .text h2 {
+    font-size: 1.5rem;
+}
+
+    .instruction__container {
+        padding-bottom: 30%;
+    }
+
+}
+

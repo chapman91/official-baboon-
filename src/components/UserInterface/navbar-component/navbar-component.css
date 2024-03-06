@@ -1,0 +1,127 @@
+.active {
+  background-color: var(--focus-clr);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-clr);
+  font-size: 1.1429rem;
+  position: sticky;
+  top: 0;
+  padding: 14px;
+  z-index: 1000;
+}
+
+.navbar__border {
+  display: flex;
+  width: 100%;
+  border: 2px solid rgba(var(--black-clr), 0.4);
+  box-shadow: 2px 2px 4px rgb(43 42 42 / 22%);
+}
+
+nav img {
+  margin: 1rem;
+  width: 7.1rem;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: var(--text-clr);
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+nav ul li a:hover {
+  background-color: var(--focus-clr);
+}
+
+/* Hamburger menu layout and positioning  */
+.navbar .navbar__menu {
+  /* Position tool */
+  top: 2.1rem;
+  position: absolute;
+  right: 1.9rem;
+  /* Flex-box tool */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  /* Visibility off */
+  display: none;
+}
+
+/* Hamburger menu styles */
+.navbar .navbar__menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: var(--text-clr);
+  border-radius: 0.2rem;
+}
+
+/* Font Size and Spacing
+*  Adjust padding and margin values to optimize space between items for different screen sizes
+*  Introduce a toggle button (like hamburger menu) to reveal nav links when clicked
+*  Hide toggle button on smaller screens
+*  Spacing and Alignment  
+*  Transitions and Animations
+*
+* */
+
+/* Media QUeries for Phones (up to 600px) */
+
+@media only screen and (max-width: 600px) {
+
+  
+  .navbar .navbar__border {
+    display: flex; /*flex container*/
+    flex-direction: column; /*column direction*/
+    align-items: start; /*align items at start*/
+  }
+
+  .navbar .navbar__menu {
+    display: flex; /*flex container*/
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column; /*display hidden*/
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav .navbar li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .navbar li a {
+    white-space: nowrap;
+    margin: 0.2rem 0.5rem;
+  }
+}
+
+/* Media Query for Tablets (601px to 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+}
+
+/* Media Query for Desktops (901px and above) */
+@media only screen and (min-width: 901px) {
+}

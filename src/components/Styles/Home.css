@@ -1,0 +1,114 @@
+
+/* Home container */
+
+
+/* Text Align */
+.HeaderSection {
+    align-items: center;
+    text-align: start;
+    display: grid;
+    grid-column: span 1;
+    
+}
+
+/* Color Styles */
+.HeaderSection__subtitle-text, .HeaderSection__context-text   {
+    color: var(--text-clr);
+}
+
+
+/* Image Layout */
+
+.icons-container {
+    display: flex;
+}
+
+
+/* Global Home Styles */
+.icons-container .icon-image {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+}
+
+
+/* Hover Effect */
+.icon-image:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Mobile Version  768px width=  */
+@media only screen and (max-width: 768px) {
+
+
+.HeaderSection   {
+    display: grid;
+    grid-column: span 2;
+}
+
+.HeaderSection__header  .HeaderSection__heading {
+    font-size: 3rem;
+}
+
+.HeaderSection__subtitle  .HeaderSection__subtitle-text {
+    font-size: 1rem;
+}
+
+.HeaderSection__context-text {
+    font-size: 1rem;
+}
+
+.image-container img {
+    width: 50%;
+    height: 50%;
+}
+
+.icons-container .icon-image{
+    width: 10%;
+    height: 10%;
+}
+
+.icons-container {
+    margin-top: 20px;
+}
+
+}
+
+/* Tablet Devices (768px to 1023px width) */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .HeaderSection   {
+        font-size: 1.4rem;
+    }
+    
+    .HeaderSection__header  .HeaderSection__heading {
+        font-size: 1rem;
+    }
+    
+    .HeaderSection__subtitle  .HeaderSection__subtitle-text {
+        font-size: 1rem;
+    }
+
+}
+
+/* Desktop Devices (768px to 1023px width) */
+
+@media only screen and (min-width: 1024px) {
+    /* Styles for desktop devices */
+    .HeaderSection   {
+        font-size: 4rem;
+    }
+    
+    .HeaderSection__header  .HeaderSection__heading {
+        font-size: 8rem;
+    }
+    
+    .HeaderSection__subtitle  .HeaderSection__subtitle-text {
+        font-size: 2rem;
+    }
+  }

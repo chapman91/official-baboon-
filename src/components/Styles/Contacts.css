@@ -1,0 +1,82 @@
+/* Layout */
+.contacts-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    margin: 0 30px;
+    
+}
+
+/* Text style */
+.contacts-container h1 {
+    color: var( --splash-bg-clr);
+    font-size: 3rem;
+}
+
+/* Logo dimension */
+.logo-container .logo-image {
+    height: 100px;
+    width: 200px;
+    border: 0.5px solid var(--text-bg-clr);
+    border-radius: 9px;
+}
+
+
+
+/* icons size */
+.contacts-layout .contact-icons-container .contact-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 90px;
+}
+
+
+/* Layout Content */
+.contacts-content {
+    margin: 0 auto;
+}
+
+
+/* layout Contacts context */
+.contacts-content .contacts-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* text color */
+.contacts-content .contacts-text p {
+    color: var( --text-clr);
+}
+
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+
+
+    /* Header Size */
+.contacts-container h1 {
+    font-size: 2rem;
+}
+
+/* Logo dimension */
+.logo-container .logo-image {
+    height: 50px;
+    width: 150px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+
+/* icons size */
+.contacts-layout .contact-icons-container .contact-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 90px;
+    margin-bottom: 30px;
+}
+
+
+}
