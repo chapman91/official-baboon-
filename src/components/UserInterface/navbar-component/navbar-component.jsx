@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./navbar-component.css";
-import logo from "/home/vboxuser/repos/baboon-website/src/assets/images/baboon-logo.svg";
+import logo from "../../../assets/images/baboon-logo.svg";
 
 export const NavbarComponent = () => {
   const [menuOpen, setMenuOpen] = useState(false);
