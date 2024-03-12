@@ -8,6 +8,10 @@ import {
     WalletMultiButton
 } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
+import  Page  from '../UserInterface/JupierApi/Page.tsx';
+import "../Styles/BuyNow.css";
+
+
 
 // Default styles that can be overridden by your app
 require('@solana/wallet-adapter-react-ui/styles.css');
@@ -40,14 +44,17 @@ export const BuyNow: FC = () => {
     );
 
     return (
+     
         <ConnectionProvider endpoint={endpoint}>
             <WalletProvider wallets={wallets} autoConnect>
                 <WalletModalProvider>
                     <WalletMultiButton />
                     <WalletDisconnectButton />
+                    <Page/>
                     { /* Your app's components go here, nested within the context providers. */ }
                 </WalletModalProvider>
             </WalletProvider>
         </ConnectionProvider>
+   
     );
 };

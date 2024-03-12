@@ -23,10 +23,6 @@
 /* Adjust font size for large screens */
 @media screen and (min-width: 768px) {
 
-    .footer {
-        width: 100%;
-    }
-
     p {
         font-size: 1.143rem;
     }
@@ -36,9 +32,6 @@
 /* Adjust font size for even larger screens */
 @media screen and (min-width: 1024px) {
 
-    .footer {
-        width: 100%;
-    }
 
     p {
         font-size: 1.286rem;

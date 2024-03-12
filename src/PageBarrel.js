@@ -6,3 +6,4 @@ export { Tokenomics } from "./components/Pages/Tokenomics";
 export { HowToBuy } from "./components/Pages/HowToBuy";
 export { Roadmap } from "./components/Pages/Roadmap";
 export { BuyNow } from "./components/Pages/BuyNow";
+
