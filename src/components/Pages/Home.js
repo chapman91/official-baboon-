@@ -57,9 +57,9 @@ const gridModification = {
    <img src={imageData.icon1} alt="Icon 1" className="icon-image" />
     <img src={imageData.icon2} alt="Icon 2" className="icon-image" />
     <img src={imageData.icon3} alt="Icon 3" className="icon-image"/>
-    <a href="https://solscan.io/token/Ez5vGvkoy86FQ1c5X7TDzPfnN2sbmQKWehAqAF8bQQ5T"  target="_blank" rel="noopener noreferrer" ><img src={imageData.icon4} alt="Icon 4" className="icon-image"/></a>
-    <img src={imageData.icon5} alt="Icon 5" className="icon-image"/>
-    <a href="https://twitter.com/babomemecoin" target="_blank" rel="noopener noreferrer"><img src={imageData.icon6} alt="Icon 6" className="icon-image"/></a>
+    <a href="https://solscan.io/token/Ez5vGvkoy86FQ1c5X7TDzPfnN2sbmQKWehAqAF8bQQ5T"  target="_blank" rel="noopener noreferrer" className="icon-image"><img src={imageData.icon4} alt="Icon 4" /></a>
+    <a href="https://t.me/baboonmemecoin" target="_blank" rel="noopener noreferrer" className="icon-image"><img src={imageData.icon5} alt="Icon 5"/> </a>
+    <a href="https://twitter.com/babomemecoin" target="_blank" rel="noopener noreferrer" className="icon-image"><img src={imageData.icon6} alt="Icon 6" /></a>
     </div>
 
   
