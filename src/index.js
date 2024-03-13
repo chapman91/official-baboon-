@@ -1,10 +1,11 @@
+// index.js
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import { WalletModalProvider } from '@solana/wallet-adapter-react-ui';
+import { Context } from "./components/common/WalletButton/Context.tsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // Render application using the root instance
@@ -13,9 +14,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <WalletModalProvider>
+      <Context>
       <App />
-      </WalletModalProvider>
+      </Context>
     </BrowserRouter>
   </React.StrictMode>
 );
