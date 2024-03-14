@@ -1,7 +1,15 @@
+
+
 /* Background color added */
 body {
     background-color: var( --background-clr)
 }
+
+
+.cHmpsg {
+    height: auto !important; /* Override the height property */
+  }
+
 
 /* Hides Property */
 
@@ -39,7 +47,14 @@ body {
 .coin-container .coin {
     width: 100px;
     height: 100px;
+    transition: transform 0.4s ease-out;
 }
+
+.coin-container .coin:hover  {
+    transform: scale(1.05); /* Adjust scale factor as needed */
+    filter: drop-shadow(0 0 10px gold);
+}
+
 
 /* Define positions for each coin */
 .coin:nth-child(1) {

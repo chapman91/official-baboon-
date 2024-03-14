@@ -116,6 +116,16 @@ nav ul li a:hover {
     white-space: nowrap;
     margin: 0.2rem 0.5rem;
   }
+
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+
 }
 
 /* Media Query for Tablets (601px to 900px) */
@@ -124,4 +134,9 @@ nav ul li a:hover {
 
 /* Media Query for Desktops (901px and above) */
 @media only screen and (min-width: 901px) {
+  .button-container{
+    order: 1;
+    
+    margin-left: 40rem 
+  }
 }

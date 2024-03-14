@@ -1,11 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import "./navbar-component.css";
 import logo from "../../../assets/images/baboon-logo.svg";
-import {
-  WalletMultiButton
-} from '@solana/wallet-adapter-react-ui';
 import React, {useState} from 'react';
-
 import { Content } from "../../common/WalletAdapter/Content.tsx";
 
 export const NavbarComponent = () => {
@@ -53,11 +49,9 @@ export const NavbarComponent = () => {
           <li>
             <NavLink to="/BuyNow">Buy Now</NavLink>
           </li>
-          <li>
-            
-              <Content />
-            
-          </li>
+          <li className="button-container">
+            <Content />
+            </li>
         </ul>
       </div>
     </nav>
