@@ -41,7 +41,12 @@ export const About = () => {
       <div className="about__content-one">
       <BackgroundWrapper>
       <BackgroundSurface>
-      Baboon is tired of the old dog shiba inu doge wtf narrative. The frogs and dogs have had their time. It is time for something that is more in tune with the crypto community. How did you first approached the markets? We did it all thinking we were Larry Fink. We simple ape in and then ape out. Got rich, and lost it all. Baboon is epitome of that narrative. The meme king of the space.
+      <p>
+Over doge? Frog memes stale?  Baboon brings fresh laughs to the crypto world!
+
+We all started the same way. Big dreams, "aping in" like Wall Street wizards.  We felt the thrill of the climb, then the sting of the dip.  Baboon gets it.
+
+But Baboon's more than memes. We're a crypto fam who laughs together through the crazy market swings.  Join us and meme your way to crypto glory!</p>
       </BackgroundSurface>
       </BackgroundWrapper>
       </div>
@@ -49,7 +54,7 @@ export const About = () => {
       <div className="about__content-two">
       <BackgroundWrapper>
       <BackgroundSurface>
-      $Babo is here to change the narrative. Transparency launched  no presale, zero taxes, and token ownership renounced. Everything is visible on Baboon X account. $Babo is a coin for everyone that is in crypto, including those joining the journey now. Fueled by pure memetic power, $Babo is here to steal the show.
+      $Babo is here to change the narrative. Transparency from the start:  no presale, zero taxes, and token ownership renounced. Fueled by pure memetic power $Babo is a coin for everyone that is in crypto, including those joining the journey now.
       </BackgroundSurface>
       </BackgroundWrapper>
       </div>

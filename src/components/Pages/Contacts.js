@@ -21,8 +21,9 @@ export const Contacts = () => {
     </div>
 
     <div className="contact-icons-container">
-       <img src={imageData.icon5} alt="Telegram Icon" className="contact-icon"/>
-       <img src={imageData.icon6} alt="Twitter Icon" className="contact-icon"/>    
+       <a href="https://t.me/baboonmemecoin" target="_blank" rel="noopener noreferrer" className="contact-icon">       <img src={imageData.icon5} alt="Telegram Icon" />
+ </a>
+       <a href="https://twitter.com/babomemecoin" target="_blank" rel="noopener noreferrer"className="contact-icon" > <img src={imageData.icon6} alt="Twitter Icon" />    </a>
     </div>
 
   

@@ -15,7 +15,7 @@ export const Tokenomics = () => {
       <BackgroundSurface>
       <div className="header__content">
       <p>No Taxes, No Bullshit. It is that simple.</p> <br/>
-      <p>token ownership is renounced, revoke mint authority,  and revoke freeze authority.</p>
+      <p>Token ownership is renounced, revoked mint authority,  and revoked freeze authority.</p>
       </div>
       </BackgroundSurface>
       </div>

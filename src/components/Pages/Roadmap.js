@@ -22,8 +22,8 @@ export const Roadmap = () => {
   <div className="Roadmap__text" style={BackgroundAdjust}>
       <ul>
         <li>Phase I: Meme</li>
-        <li>Phase II: Ape in, Ape out.</li>
-        <li>Phase III: Baboon Takeover</li>
+        <li>Phase II: Ape in, HODL</li>
+        <li>Phase III: Baboon Takeover, Ape Out</li>
       </ul>
   </div>
   </BackgroundSurface>
