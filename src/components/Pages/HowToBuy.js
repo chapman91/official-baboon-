@@ -83,8 +83,8 @@ export const HowToBuy = () => {
         <div className="container">
         <BackgroundSurface>
         <div className="icons">
-        <img src={image3} alt="Jupiter Icon" className="icon-instruction" />
-        <img src={image6} alt="currency converter" style={CurrencyArrowStyles} className-="currency-arrow" />
+        <img src={image3} alt="Jupiter Icon" className="icon-instruction " />
+        <img src={image6} alt="currency converter" style={CurrencyArrowStyles} className="currency-arrow" />
         <img src={image5} alt="Baboon Icon" className="icon-instruction" />
         </div>
         <div className="text">

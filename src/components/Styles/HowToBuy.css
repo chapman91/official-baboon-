@@ -9,7 +9,9 @@
     margin-right: 10px;
 }
 
-
+.icons .currency-arrow {
+    margin-bottom: 10px;
+    }
 
 /* Header Text */
 .HowToBuy-header h1 {
@@ -39,6 +41,8 @@
     flex: 0 1 300px;  
     margin-top: 40px;
 }
+
+
 
 .text {
     flex: 1;
@@ -75,6 +79,11 @@
 
     }
 
+    .icons .currency-arrow {
+        margin-bottom: 10px;
+        transform: rotate(270deg);
+        }
+
     /* Instruction Subtitle Text  */
     .text h2 {
     font-size: 1.5rem;
@@ -85,4 +94,6 @@
     }
 
 }
+
+
 
