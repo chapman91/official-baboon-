@@ -12,7 +12,7 @@ export const NavbarComponent = () => {
 
     <nav className="navbar">
       <div className="navbar__border">
-        <Link to="/" className="navbar__title">
+        <Link to="/home" className="navbar__title">
           <img src={logo} alt="Baboon Logo" />
         </Link>
         <div

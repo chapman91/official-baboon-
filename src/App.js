@@ -10,7 +10,7 @@ import {
   BuyNow
 } from "./PageBarrel";
 import { NavbarComponent, Footer } from "./UIComponentsBarrel";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import "./App.css";
 
@@ -33,13 +33,15 @@ function App() {
         <div>
           <NavbarComponent />
           <Routes>
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={< Navigate to="/Home" />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contacts" element={<Contacts />} />
             <Route path="/HowToBuy" element={<HowToBuy />} />
             <Route path="/Roadmap" element={<Roadmap />} />
             <Route path="/Tokenomics" element={<Tokenomics />} />
             <Route path="/BuyNow" element={<BuyNow />} />
+
           </Routes>
           <Footer />
         </div>
