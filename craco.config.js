@@ -1,16 +1,20 @@
-// module.exports is provided by the CommonJS module system
-
-
 module.exports = {
-  // ... configuration options 
+  // ... other configuration options 
   configure: (webpackConfig, { env, paths }) => {
-    // ... configuration logic
+    // ... other configuration logic
+
+    // Add crypto polyfill
     webpackConfig.resolve.fallback = {
-      crypto: require.resolve('crypto-browserify'),
+      ...webpackConfig.resolve.fallback,
+      "crypto": require.resolve('crypto-browserify'),
     };
-    //
+
+    // Add http polyfill (merging with existing fallbacks)
+    webpackConfig.resolve.fallback = {
+      ...webpackConfig.resolve.fallback,
+      "http": require.resolve("stream-http")
+    };
+
     return webpackConfig; 
   }
-
-
 };
