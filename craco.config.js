@@ -7,6 +7,7 @@ module.exports = {
     // ... configuration logic
     webpackConfig.resolve.fallback = {
       crypto: require.resolve('crypto-browserify'),
+       http: false,  
     };
     //
     return webpackConfig; 
