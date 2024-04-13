@@ -1,20 +1,12 @@
+// craco.config.js
 module.exports = {
-  // ... other configuration options 
-  configure: (webpackConfig, { env, paths }) => {
-    // ... other configuration logic
-
-    // Add crypto polyfill
+  configureWebpack: (webpackConfig) => {
     webpackConfig.resolve.fallback = {
-      ...webpackConfig.resolve.fallback,
       "crypto": require.resolve('crypto-browserify'),
+      "http": require.resolve("stream-http"),
+      // Add other desired fallbacks here
     };
 
-    // Add http polyfill (merging with existing fallbacks)
-    webpackConfig.resolve.fallback = {
-      ...webpackConfig.resolve.fallback,
-      "http": require.resolve("stream-http")
-    };
-
-    return webpackConfig; 
+    return webpackConfig;
   }
 };
