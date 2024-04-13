@@ -11,8 +11,8 @@ import {
 } from "./PageBarrel";
 import { NavbarComponent, Footer } from "./UIComponentsBarrel";
 import { Routes, Route, Navigate } from "react-router-dom";
+//import "/runtime.js"; 
 
-import "./App.css";
 
 // Functional Component
 function App() {
