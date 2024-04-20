@@ -9,11 +9,21 @@
 }
 
 
+.header__subtitle {
+  text-align: center;
+}
+
+
 .header__text {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 3%;
+}
+
+
+.header__text  .header__content {
+  text-align: center;
 }
 
 
