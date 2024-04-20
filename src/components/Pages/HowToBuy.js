@@ -65,7 +65,7 @@ export const HowToBuy = () => {
         <div className="container">
         <BackgroundSurface>
         <div className="icons">
-        <img src={image2} alt="Solana Icon" className="icon-instruction" />
+        <img src={image3} alt="Jupiter Icon" className="icon-instruction" />
         <img src={image4} alt="Raydium Icon" className="icon-instruction" />
         </div>
         <div className="text">
@@ -83,7 +83,7 @@ export const HowToBuy = () => {
         <div className="container">
         <BackgroundSurface>
         <div className="icons">
-        <img src={image3} alt="Jupiter Icon" className="icon-instruction " />
+        <img src={image2} alt="Jupiter Icon" className="icon-instruction" />
         <img src={image6} alt="currency converter" style={CurrencyArrowStyles} className="currency-arrow" />
         <img src={image5} alt="Baboon Icon" className="icon-instruction" />
         </div>
