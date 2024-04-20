@@ -80,8 +80,15 @@
     margin-right: 20px;
     flex: 0 1 50px;  
     margin-top: 40px;
-
+    display: flex;
+    flex-direction: column;
     }
+
+    .icon-instruction {
+        margin-bottom: 3px;
+    }
+
+
 
     .icons .currency-arrow {
         margin-bottom: 10px;

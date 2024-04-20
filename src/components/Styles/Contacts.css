@@ -1,12 +1,16 @@
+
+section {
+    height: auto;
+}
+
+
 /* Layout */
 .contacts-layout {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
     margin: 0 30px;
-    
 }
 
 /* Text style */
@@ -45,6 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
 
 
@@ -74,7 +79,7 @@
 }
 
 /* icons size */
-.contacts-layout .contact-icons-container .contact-icon {
+.contacts-layout .contact-icons-container .contact-icon img {
     margin-right: 1rem;
     height: 50px;
     width: 50px;

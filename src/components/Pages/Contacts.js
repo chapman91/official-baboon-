@@ -10,6 +10,8 @@ export const Contacts = () => {
 
 
   return (
+
+<section>
   <div className="contacts-layout">
     {/* header */}
     <div className="contacts-container">
@@ -36,6 +38,6 @@ export const Contacts = () => {
       </BackgroundSurface>
     </div>
     
-
-  </div >);
+  </div>
+  </section>);
 };
