@@ -40,7 +40,7 @@ const gridModification = {
 
     {/* Home Page Content  */}
     <div className="HeaderSection__content">
-      <p className="HeaderSection__context-text">They say you are a baboon for aping in. It is about trusting your gut instinct.</p>
+      <p className="HeaderSection__context-text">They call you a baboon for aping. I call it gut instinct.</p>
     </div>
 
     </div>

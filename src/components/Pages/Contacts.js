@@ -32,8 +32,8 @@ export const Contacts = () => {
     <div className="contacts-content">
     <BackgroundSurface>
       <div className="contacts-text">
-      <p>$Babo coin has no association with anything or anyone. This token is simply paying homage to how we all approached the crytpo markets .</p>
-      <p>$Babo is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. the coin is completely useless and for entertainment purposes only.</p>
+      <p>$Babo coin has no association with any primates. This token is simply putting into perspective the view outsiders take on the crypto community.</p>
+      <p>$Babo is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is completely useless and is only for entertainment purposes only.</p>
       </div>
       </BackgroundSurface>
     </div>

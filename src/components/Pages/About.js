@@ -42,11 +42,11 @@ export const About = () => {
       <BackgroundWrapper>
       <BackgroundSurface>
       <p>
-Over doge? Frog memes stale?  Baboon brings fresh laughs to the crypto world!
+Babo is tired of the endless cycle of frogs, and dog coins. They have all had their time. 
 
-We all started the same way. Big dreams, "aping in" like Wall Street wizards.  We felt the thrill of the climb, then the sting of the dip.  Baboon gets it.
+It’s time for the most recognizable meme in crypto to come to life.
 
-But Baboon's more than memes. We're a crypto fam who laughs together through the crazy market swings.  Join us and meme your way to crypto glory!</p>
+</p>
       </BackgroundSurface>
       </BackgroundWrapper>
       </div>
@@ -54,7 +54,7 @@ But Baboon's more than memes. We're a crypto fam who laughs together through the
       <div className="about__content-two">
       <BackgroundWrapper>
       <BackgroundSurface>
-      $Babo is here to change the narrative. Transparency from the start:  no presale, zero taxes, and token ownership renounced. Fueled by pure memetic power $Babo is a coin for everyone that is in crypto, including those joining the journey now.
+      Babo is here to change the narrative. No presale, zero taxes, and token ownership is renounced. Fueled by pure memetic power. $Babo is a coin for everyone that is in crypto, including those joining the journey now.
       </BackgroundSurface>
       </BackgroundWrapper>
       </div>

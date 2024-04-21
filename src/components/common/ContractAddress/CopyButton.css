@@ -1,0 +1,12 @@
+.AddressContainer {
+    display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+
+.ContractAddress {
+    background-color: var(--splash-bg-clr);
+    color: var(--text-clr);
+    align-items: center;
+}
